@@ -1,4 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { PhotoService } from './photo/photo.service';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projetoo';
+  
+
+
+  constructor(public photoService: PhotoService) {}
+
 }

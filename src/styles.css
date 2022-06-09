@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+    color: brown;
+    outline: auto;
+    
+  
+    background-image: url("https://i.pinimg.com/originals/2b/cf/d2/2bcfd26f116ef6bf2400de46b0ae1bef.png");
+background-position: center;
+background-position-y:center;
+background-size: 430px;
+background-repeat: no-repeat
+ ;
+
+}
+
+
+
+
+
+
